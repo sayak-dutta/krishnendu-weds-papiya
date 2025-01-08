@@ -60,7 +60,7 @@ export default function WeddingInvitation() {
 						Krishnendu & Papiya
 					</motion.h2>
 					<motion.p
-						className="text-3xl font-semibold"
+						className="text-3xl font-semibold hidden"
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.5, delay: 0.8 }}
@@ -162,17 +162,14 @@ export default function WeddingInvitation() {
 			{/* Wedding Info Section */}
 			<section className="py-20 px-4">
 				<div className="max-w-4xl mx-auto text-center">
+					<Image
+						src="/marrige.png"
+						width={200}
+						height={100}
+						alt="footer img"
+						className="mx-auto"
+					/>
 					<h2 className="text-3xl text-pink-600 mb-8">We&apos;re Getting Married</h2>
-					<div className="mb-8">
-						{/* <h3 className="text-2xl font-arabic mb-4">
-							Assalamualaikum Warahmatullahi Wabarakatuh
-						</h3> */}
-						{/* <p className="text-gray-600 max-w-2xl mx-auto">
-							By asking for the grace and blessing of Allah SWT, We intend to hold a
-							wedding celebration for our sons and daughters, which Allah SWT willing
-							will be held on:
-						</p> */}
-					</div>
 
 					<p className="text-3xl font-semibold mb-4 animate-fade-in bengali-font">
 						অপেক্ষার আর মাত্র{" "}
@@ -198,7 +195,7 @@ export default function WeddingInvitation() {
 								<p className="text-gray-600 text-xl mb-2 bengali-font">
 									১০ই মাঘ ১৪৩১
 								</p>
-								<p className=" mb-4">24 January 2025</p>
+								<p className="font-semibold mb-4">24 January 2025</p>
 								<h4 className="font-semibold mb-2 text-2xl bengali-font">
 									{" "}
 									স্থান{" "}
@@ -231,16 +228,13 @@ export default function WeddingInvitation() {
 								<h3 className="text-2xl font-semibold mb-2 bengali-font">
 									প্রীতিভোজ
 								</h3>
-								<p className="text-gray-600 text-xl mb-4 bengali-font">
+								<p className="text-gray-600 text-xl mb-2 bengali-font">
 									১২ই মাঘ ১৪৩১
 								</p>
-								<h4 className="font-semibold mb-2">Bride&apos;s house</h4>
-								<p className="text-gray-600 text-sm mb-4">
-									Jl. Jakarta Raya No.21, Cicaheum,
-									<br />
-									Kiaracondong, Kota Bandung,
-									<br />
-									40282
+								<p className=" text font-semibold mb-4 ">26 january 2025</p>
+								<h4 className="font-semibold mb-2 text-2xl bengali-font">স্থান</h4>
+								<p className="text-gray-600 text-xl mb-2 bengali-font">
+									নিজ বাসভবনে, কুল্পী শিক্ষকপল্লী C.P.I.M পার্টি অফিসের বিপরীতে।
 								</p>
 								<Link href={"https://maps.app.goo.gl/qv3jbwAFXG5CWXFa9"}>
 									<Button
@@ -261,15 +255,20 @@ export default function WeddingInvitation() {
 			{/* <Gallery /> */}
 
 			{/* Map Section */}
-			<section className="h-[400px] w-full">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7985117905477!2d107.6082378!3d-6.9175957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0x37be7ac9d575f7ed!2sGedung%20Sate!5e0!3m2!1sen!2sid!4v1645524559349!5m2!1sen!2sid"
-					width="100%"
-					height="100%"
-					style={{ border: 0 }}
-					allowFullScreen
-					loading="lazy"
-				/>
+			<section className=" w-full footer  pt-8">
+				<div
+					className=" bg-no-repeat md:bg-repeat-x bg-bottom bg-contain md:min-h-80 md:bg-auto"
+					style={{ backgroundImage: "url(/illustration.png)" }}
+				>
+					<h2
+						className="text-2xl font-semibold text-center mb-2 px-4 bengali-font py-4"
+						style={{ paddingBottom: "150px" }}
+					>
+						এই শুভ অনুষ্ঠানে আপনাদের উপস্থিতি আমাদের জন্য অত্যন্ত গুরুত্বপূর্ণ।
+						<br />
+						🙏🙏
+					</h2>
+				</div>
 			</section>
 		</main>
 	);

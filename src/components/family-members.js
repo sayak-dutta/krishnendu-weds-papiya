@@ -45,7 +45,7 @@ const husbandFamily = [
 	{
 		name: "গোবিন্দ হালদার",
 		relation: "মেজো জামাইবাবু",
-		image: "/placeholder.svg?height=300&width=300",
+		image: "/gobinda.jpeg?height=300&width=300",
 	},
 	{ name: "মিঠু হালদার", relation: "মেজো দিদি", image: "/mithu-halder.jpeg" },
 	{
