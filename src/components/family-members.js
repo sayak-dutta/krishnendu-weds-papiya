@@ -100,7 +100,7 @@ export function FamilyMembers() {
 
 					<TabsContent value="wife">
 						<motion.div
-							className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+							className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
 							variants={container}
 							initial="hidden"
 							animate="show"
@@ -111,12 +111,12 @@ export function FamilyMembers() {
 									className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md"
 									variants={item}
 								>
-									<div className="relative w-40 h-40 mb-4 overflow-hidden rounded-full">
+									<div className="relative w-40 h-40 mzzzmzazb-4 overflow-hidden rounded-full">
 										<Image
 											src={member.image}
 											alt={member.name}
 											fill
-											className="object-cover"
+											className="object-cover w-full p-4x                                                                                                                                                                                 mmmmzzm"
 										/>
 									</div>
 									<h3 className="text-xl font-semibold text-gray-800 mb-2">
@@ -149,7 +149,7 @@ export function FamilyMembers() {
 											className="object-cover"
 										/>
 									</div>
-									<h3 className="text-xl font-semibold text-gray-800 mb-2">
+									<h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
 										{member.name}
 									</h3>
 									<p className="text-gray-600">{member.relation}</p>

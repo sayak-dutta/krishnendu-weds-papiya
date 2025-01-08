@@ -38,7 +38,7 @@ export default function CountdownTimer({ targetDate }) {
 	return (
 		<div className="flex justify-center gap-1 md:gap-4">
 			<motion.div
-				className="bg-white rounded-lg p-4 min-w-[100px] shadow-md"
+				className="bg-white rounded-lg p-3 min-w-[80px] shadow-md"
 				variants={countItem}
 				initial="hidden"
 				animate="show"
@@ -47,7 +47,7 @@ export default function CountdownTimer({ targetDate }) {
 				<div className="text-sm text-gray-600">Days</div>
 			</motion.div>
 			<motion.div
-				className="bg-white rounded-lg p-4 min-w-[100px] shadow-md"
+				className="bg-white rounded-lg p-3 min-w-[80px] shadow-md"
 				variants={countItem}
 				initial="hidden"
 				animate="show"
@@ -57,7 +57,7 @@ export default function CountdownTimer({ targetDate }) {
 				<div className="text-sm text-gray-600">Hours</div>
 			</motion.div>
 			<motion.div
-				className="bg-white rounded-lg p-4 min-w-[100px] shadow-md"
+				className="bg-white rounded-lg p-3 min-w-[80px] shadow-md"
 				variants={countItem}
 				initial="hidden"
 				animate="show"
@@ -67,7 +67,7 @@ export default function CountdownTimer({ targetDate }) {
 				<div className="text-sm text-gray-600">Minutes</div>
 			</motion.div>
 			<motion.div
-				className="bg-white rounded-lg p-4 min-w-[100px] shadow-md"
+				className="bg-white rounded-lg p-3 min-w-[80px] shadow-md"
 				variants={countItem}
 				initial="hidden"
 				animate="show"
