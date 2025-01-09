@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Facebook, Icon, Instagram, PhoneCall, Twitter } from "lucide-react";
+import { Facebook, Icon, Instagram, PhoneCall } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import CountdownTimer from "@/components/countdown-timer";
@@ -65,7 +65,7 @@ export default function WeddingInvitation() {
 									alt="Groom"
 									width={256}
 									height={256}
-									className="rounded-full"
+									className="rounded-full h-auto"
 								/>
 							</div>
 							<h3 className="text-4xl font-script text-pink-600 mb-2">
@@ -78,9 +78,6 @@ export default function WeddingInvitation() {
 							<div className="flex gap-4">
 								<a href="#" className="text-pink-600 hover:text-pink-700">
 									<Instagram className="w-5 h-5" />
-								</a>
-								<a href="#" className="text-pink-600 hover:text-pink-700">
-									<Twitter className="w-5 h-5" />
 								</a>
 								<a href="#" className="text-pink-600 hover:text-pink-700">
 									<Facebook className="w-5 h-5" />
@@ -115,9 +112,7 @@ export default function WeddingInvitation() {
 								<a href="#" className="text-pink-600 hover:text-pink-700">
 									<Instagram className="w-5 h-5" />
 								</a>
-								<a href="#" className="text-pink-600 hover:text-pink-700">
-									<Twitter className="w-5 h-5" />
-								</a>
+
 								<a href="#" className="text-pink-600 hover:text-pink-700">
 									<Facebook className="w-5 h-5" />
 								</a>
@@ -136,7 +131,7 @@ export default function WeddingInvitation() {
 			</section>
 
 			{/* Wedding Info Section */}
-			<section className="py-20 px-2">
+			<section className="py-10 px-2">
 				<div className="max-w-4xl mx-auto text-center">
 					<Image
 						src="/marrige.png"
@@ -246,11 +241,18 @@ export default function WeddingInvitation() {
 						</Card>
 					</div>
 				</div>
+				<Image
+					src="/floral-lineart.png"
+					alt="knot"
+					width={1000}
+					height={100}
+					className="md:w-1/3 w-full mx-auto mt-2"
+				/>
 			</section>
 
 			<FamilyMembers />
 
-			{/* <Gallery /> */}
+			<Gallery />
 
 			{/* Map Section */}
 			<section className=" w-full footer  pt-8">
@@ -268,6 +270,12 @@ export default function WeddingInvitation() {
 					</h2>
 				</div>
 			</section>
+			<footer className="text-center italic">
+				made with ❤️ by{" "}
+				<Link href={"https://sayakdutta.site"}>
+					<strong>sayak</strong>
+				</Link>
+			</footer>
 		</main>
 	);
 }
