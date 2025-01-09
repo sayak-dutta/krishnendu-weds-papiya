@@ -6,6 +6,7 @@ import Image from "next/image";
 
 const wifeFamily = [
 	{ name: "বাসন্তী তাঁতী", relation: "ঠাকুমা", image: "/basanti.jpeg?height=300&width=300" },
+	{ name: "অঙ্কুর তাঁতী", relation: "ভাই", image: "/ankur.jpeg?height=300&width=300" },
 	{ name: "পতিত পাবন তাঁতী", relation: "বাবা", image: "/patit.jpeg?height=300&width=300" },
 	{ name: "প্রতিমা তাঁতী", relation: "মা", image: "/pratima.jpeg?height=300&width=300" },
 	{ name: "নীলরতন তাঁতী", relation: "মেজো কাকা", image: "/nrt.jpeg?height=300&width=300" },
@@ -22,7 +23,6 @@ const wifeFamily = [
 		image: "/susmita.jpeg?height=300&width=300",
 	},
 	{ name: "প্রকৃতি তাঁতী", relation: "ছোটো বোন", image: "/prakriti.jpeg?height=300&width=300" },
-	{ name: "অঙ্কুর তাঁতী", relation: "ভাই", image: "/ankur.jpeg?height=300&width=300" },				
 ];
 
 const husbandFamily = [
