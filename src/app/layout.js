@@ -12,8 +12,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "Krishnendu Weds Papiya - 24 January 2025",
-	description: "Welcome to our wedding invitation site",
+	title: "Krishnendu Weds Papiya",
+	description:
+		"আমাদের জীবনের নতুন অধ্যায়ে আপনাকে স্বাগতম। বর-কনে উভয়ের পক্ষ থেকে আমাদের বিবাহ উৎসবে যোগ দেওয়ার জন্য আপনাকে আন্তরিক আমন্ত্রণ জানাচ্ছি।",
+	openGraph: {
+		images: [
+			{
+				url: "/thumb.jpeg",
+				width: 1200,
+				height: 630,
+				alt: "Krishnendu Weds Papiya",
+			},
+		],
+	},
 };
 
 export default function RootLayout({ children }) {

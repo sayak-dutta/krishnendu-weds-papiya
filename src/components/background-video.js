@@ -17,7 +17,7 @@ export default function BackgroundVideo({ src, fallbackImageSrc }) {
 				src={fallbackImageSrc}
 				alt="Wedding background"
 				fill
-				className="object-cover brightness-50"
+				className="object-cover brightness-80"
 				priority
 			/>
 		);
@@ -29,7 +29,7 @@ export default function BackgroundVideo({ src, fallbackImageSrc }) {
 			width={"100%"}
 			alt="Wedding background video"
 			fill="true"
-			className="object-cover brightness-50"
+			className="object-cover brightness-80"
 			priority="true"
 			muted
 			loop

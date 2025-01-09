@@ -18,25 +18,9 @@ export default function WeddingInvitation() {
 			<section className="relative h-fit overflow-hidden">
 				<BackgroundVideo
 					src="/trailer.mp4"
-					fallbackImageSrc="/placeholder.svg?height=1080&width=1920"
+					fallbackImageSrc="/thumb.jpeg?height=1080&width=1920"
 				/>
-				<div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4 z-10">
-					{/* <p
-						className="mb-4 text-lg"
-						initial={{ opacity: 0, y: -20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.5 }}
-					>
-						To Allah The Most Loving
-					</p> */}
-					{/* <p
-						className="mb-8 text-lg max-w-2xl"
-						initial={{ opacity: 0, y: -20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.5, delay: 0.2 }}
-					>
-						With Your blessing, you brought us together in a holy marriage bond
-					</p> */}
+				<div className="absolute inset-0 flex flex-col md:items-center justify-center text-white text-center py-4 z-10">
 					<motion.div
 						className=" bengali-font"
 						initial={{ opacity: 0, scale: 0.8 }}
@@ -47,31 +31,23 @@ export default function WeddingInvitation() {
 							src="/icon-header.png"
 							width={300}
 							height={100}
-							className="w-40 md:w-auto mx-auto"
+							className="w-40 md:w-auto md:w-auto ml-auto"
 							alt="icon"
 						/>
 					</motion.div>
 					<motion.h2
-						className="text-5xl lg:text-6xl font-script mb-6"
+						className="text-5xl lg:text-6xl font-script  [text-shadow:_2px_2px_0_#db2877]"
 						initial={{ opacity: 0, scale: 0.8 }}
 						animate={{ opacity: 1, scale: 1 }}
 						transition={{ duration: 0.5, delay: 0.6 }}
 					>
 						Krishnendu & Papiya
 					</motion.h2>
-					<motion.p
-						className="text-3xl font-semibold hidden"
-						initial={{ opacity: 0, y: 20 }}
-						animate={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.5, delay: 0.8 }}
-					>
-						24 January 2025
-					</motion.p>
 				</div>
 			</section>
 
 			{/* Meet The Couple Section */}
-			<section className="py-8 px-2 bg-pink-50">
+			<section className="py-8  bg-pink-50">
 				<div className="max-w-4xl mx-auto text-center">
 					<h2 className="text-3xl text-pink-600 mb-4">Meet The Happy Couple</h2>
 
@@ -160,7 +136,7 @@ export default function WeddingInvitation() {
 			</section>
 
 			{/* Wedding Info Section */}
-			<section className="py-20 px-4">
+			<section className="py-20 px-2">
 				<div className="max-w-4xl mx-auto text-center">
 					<Image
 						src="/marrige.png"
@@ -172,7 +148,7 @@ export default function WeddingInvitation() {
 					<h2 className="text-3xl text-pink-600 mb-8">We&apos;re Getting Married</h2>
 
 					<p className="text-3xl font-semibold mb-4 animate-fade-in bengali-font">
-						অপেক্ষার আর মাত্র{" "}
+						অপেক্ষার আর মাত্র
 					</p>
 
 					<CountdownTimer targetDate="2025-01-24" />
@@ -211,7 +187,7 @@ export default function WeddingInvitation() {
 								<h4 className="font-semibold mb-2 mt-4 text-2xl bengali-font">
 									যোগাযোগ (পাত্রী বাড়ি)
 								</h4>
-								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4">
+								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4 justify-center">
 									<Link href={"tel:7074321708"} className="flex">
 										<PhoneCall /> ৭০৭৪৩২১৭০৮
 									</Link>
@@ -256,7 +232,7 @@ export default function WeddingInvitation() {
 								<h4 className="font-semibold mb-2 mt-4 text-2xl bengali-font">
 									যোগাযোগ (পাত্র বাড়ি)
 								</h4>
-								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4">
+								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4 justify-center">
 									<Link href={"tel:8617315899"} className="flex">
 										<PhoneCall />
 										৮৬১৭৩১৫৮৯৯
