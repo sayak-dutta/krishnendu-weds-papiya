@@ -9,14 +9,14 @@ const wifeFamily = [
 	{ name: "পতিত পাবন তাঁতী", relation: "বাবা", image: "/patit.jpeg?height=300&width=300" },
 	{ name: "প্রতিমা তাঁতী", relation: "মা", image: "/pratima.jpeg?height=300&width=300" },
 	{ name: "প্রকৃতি তাঁতী", relation: "ছোটো বোন", image: "/prakriti.jpeg?height=300&width=300" },
-	{ name: "নীলরতন তাঁতী", relation: "মেজো কাকা", image: "/placeholder.svg?height=300&width=300" },
+	{ name: "নীলরতন তাঁতী", relation: "মেজো কাকা", image: "/nrt.jpeg?height=300&width=300" },
 	{
 		name: "বিউটি তাঁতী",
 		relation: "মেজো কাকিমা",
 		image: "/biuti.jpeg?height=300&width=300",
 	},
 	{ name: "অঙ্কুর তাঁতী", relation: "ভাই", image: "/ankur.jpeg?height=300&width=300" },
-	{ name: "ভরত তাঁতী", relation: "সেজো কাকা", image: "/placeholder.svg?height=300&width=300" },
+	{ name: "ভরত তাঁতী", relation: "সেজো কাকা", image: "/bharat.jpeg?height=300&width=300" },
 	{
 		name: "সুস্মিতা তাঁতী",
 		relation: "সেজো কাকিমা",
@@ -25,11 +25,6 @@ const wifeFamily = [
 ];
 
 const husbandFamily = [
-	{
-		name: "ডা: কৃষ্ণেন্দু মন্ডল",
-		relation: "পাত্র",
-		image: "/km2.jpeg?height=300&width=300",
-	},
 	{
 		name: "ডা: নীহার রঞ্জন মন্ডল",
 		relation: "বাবা",

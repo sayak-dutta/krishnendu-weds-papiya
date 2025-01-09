@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Facebook, Instagram, Twitter } from "lucide-react";
+import { Facebook, Icon, Instagram, PhoneCall, Twitter } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import CountdownTimer from "@/components/countdown-timer";
@@ -196,21 +196,30 @@ export default function WeddingInvitation() {
 									১০ই মাঘ ১৪৩১
 								</p>
 								<p className="font-semibold mb-4">24 January 2025</p>
-								<h4 className="font-semibold mb-2 text-2xl bengali-font">
-									{" "}
-									স্থান{" "}
-								</h4>
+								<h4 className="font-semibold mb-2 text-2xl bengali-font">স্থান</h4>
 								<p className="text-gray-600 text-xl mb-2 bengali-font">
 									নিজ বাসভবনে, কুল্পী পুরাতন বাজার আটচালার সন্নিকটে।
 								</p>
 								<Link href="https://maps.app.goo.gl/k2gMDgHhPLd7o3B26">
 									<Button
 										variant="secondary"
-										className="mt-12 bg-pink-500 text-white hover:bg-pink-600"
+										className="my-2 bg-pink-500 text-white hover:bg-pink-600"
 									>
 										Open Maps
 									</Button>
 								</Link>
+								<h4 className="font-semibold mb-2 mt-4 text-2xl bengali-font">
+									যোগাযোগ (পাত্রী বাড়ি)
+								</h4>
+								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4">
+									<Link href={"tel:7074321708"} className="flex">
+										<PhoneCall /> ৭০৭৪৩২১৭০৮
+									</Link>
+									<Link href={"tel:7980556619"} className="flex">
+										<PhoneCall />
+										৭৯৮০৫৫৬৬১৯
+									</Link>
+								</div>
 							</CardContent>
 						</Card>
 
@@ -234,16 +243,29 @@ export default function WeddingInvitation() {
 								<p className=" text font-semibold mb-4 ">26 january 2025</p>
 								<h4 className="font-semibold mb-2 text-2xl bengali-font">স্থান</h4>
 								<p className="text-gray-600 text-xl mb-2 bengali-font">
-									নিজ বাসভবনে, কুল্পী শিক্ষকপল্লী C.P.I.M পার্টি অফিসের বিপরীতে।
+									নিজ বাসভবনে, কুল্পী শিক্ষকপল্লী Girls School এর বিপরীতে।
 								</p>
 								<Link href={"https://maps.app.goo.gl/qv3jbwAFXG5CWXFa9"}>
 									<Button
 										variant="secondary"
-										className="mt-12 bg-pink-500 text-white hover:bg-pink-600"
+										className="my-4 bg-pink-500 text-white hover:bg-pink-600"
 									>
 										Open Maps
 									</Button>
 								</Link>
+								<h4 className="font-semibold mb-2 mt-4 text-2xl bengali-font">
+									যোগাযোগ (পাত্র বাড়ি)
+								</h4>
+								<div className="text-gray-600 text-xl mb-2 bengali-font flex gap-4">
+									<Link href={"tel:8617315899"} className="flex">
+										<PhoneCall />
+										৮৬১৭৩১৫৮৯৯
+									</Link>
+									<Link href={"tel:9476121279"} className="flex">
+										<PhoneCall />
+										৯৪৭৬১২১২৭৯
+									</Link>
+								</div>
 							</CardContent>
 						</Card>
 					</div>
@@ -264,7 +286,7 @@ export default function WeddingInvitation() {
 						className="text-2xl font-semibold text-center mb-2 px-4 bengali-font py-4"
 						style={{ paddingBottom: "150px" }}
 					>
-						এই শুভ অনুষ্ঠানে আপনাদের উপস্থিতি আমাদের জন্য অত্যন্ত গুরুত্বপূর্ণ।
+						এই শুভ অনুষ্ঠানে আপনার উপস্থিতি আমাদের জন্য অত্যন্ত গুরুত্বপূর্ণ।
 						<br />
 						🙏🙏
 					</h2>
