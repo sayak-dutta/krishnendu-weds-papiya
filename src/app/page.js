@@ -198,11 +198,11 @@ export default function WeddingInvitation() {
 							<CardContent className="p-6 text-center">
 								<div className="mb-4">
 									<Image
-										src="/pritibhoj.png"
+										src="/badhubaran.png"
 										alt="Party icon"
 										width={150}
-										height={80}
-										className="mx-auto"
+										height={100}
+										className="mx-auto rounded-xl"
 									/>
 								</div>
 								<h3 className="text-2xl font-semibold mb-2 bengali-font">বধূবরণ</h3>
