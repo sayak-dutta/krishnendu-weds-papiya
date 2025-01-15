@@ -205,9 +205,7 @@ export default function WeddingInvitation() {
 										className="mx-auto"
 									/>
 								</div>
-								<h3 className="text-2xl font-semibold mb-2 bengali-font">
-									প্রীতিভোজ
-								</h3>
+								<h3 className="text-2xl font-semibold mb-2 bengali-font">বধূবরণ</h3>
 								<p className="text-gray-600 text-xl mb-2 bengali-font">
 									১২ই মাঘ ১৪৩১
 								</p>
